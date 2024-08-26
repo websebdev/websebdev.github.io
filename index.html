@@ -15,12 +15,19 @@
     </style>
 </head>
 <body class="bg-gray-100">
-    <header class="bg-red-700 text-white py-6">
+    <header class="bg-red-700 text-white py-4 sm:py-6 sticky top-0 z-50">
         <div class="container mx-auto px-4">
-            <img src="logo.png" alt="WebSebDev logo" class="mr-4 h-16 w-auto border border-black mb-2">
-            <div>
-                <h1 class="text-4xl font-bold">Sebastien Auriault</h1>
-                <p class="text-xl mt-2">Ruby on Rails | Full Stack Web Development</p>
+            <div class="flex flex-col items-center sm:flex-row sm:justify-between sm:items-center">
+                <div class="flex flex-col items-center sm:flex-row sm:items-center mb-4 sm:mb-0">
+                    <img src="logo.png" alt="WebSebDev logo" class="mb-2 sm:mb-0 sm:mr-4 h-12 sm:h-16 w-auto border border-black">
+                    <div class="text-center sm:text-left">
+                        <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold">Sebastien Auriault</h1>
+                        <p class="text-sm sm:text-base md:text-xl mt-1">Ruby on Rails | Full Stack Web Development</p>
+                    </div>
+                </div>
+                <a href="#" onclick="window.location.href = 'mailto:' + atob('d2Vic2ViZGV2QGdtYWlsLmNvbQ=='); return false;" class="bg-white text-red-700 px-4 py-2 rounded-lg hover:bg-red-100 transition duration-300 text-sm sm:text-base mt-4 sm:mt-0">
+                    Contact Me
+                </a>
             </div>
         </div>
     </header>
